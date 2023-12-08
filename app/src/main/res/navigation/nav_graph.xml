@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/userListFragment">
+
+     <fragment
+        android:id="@+id/userListFragment"
+        android:name="com.example.firebasetaskappkaushal.ui.UserListFragment"
+        android:label="User Input Form"
+        tools:layout="@layout/fragment_user_list" >
+        <action
+            android:id="@+id/action_userListFragment_to_dataDialog"
+            app:destination="@id/dataDialog" />
+    </fragment>
+    <dialog
+        android:id="@+id/dataDialog"
+        android:name="com.example.firebasetaskappkaushal.ui.DataDialog"
+        android:label="dialog_data_show"
+        tools:layout="@layout/dialog_data_show" >
+        <argument
+            android:name="userInfo"
+            app:argType="com.example.firebasetaskappkaushal.model.UserInfo" />
+    </dialog>
+</navigation>
