@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "661935041805",
+    "project_id": "landscapedemo-4a335",
+    "storage_bucket": "landscapedemo-4a335.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661935041805:android:015fbf35bed19a1b949444",
+        "android_client_info": {
+          "package_name": "com.example.firebasetaskappkaushal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz9BpXy0GY2pG9C1_SOQfl71nybpq7KlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
